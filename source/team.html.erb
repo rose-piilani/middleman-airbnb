@@ -1,0 +1,13 @@
+<div id="about">
+  <div class="about-content">
+    <h1>Team</h1>
+    <ul class="list-inline text-center">
+      <% ["rose-piilani", "misterenzo"].each do |gh_username| %>
+        <li>
+          <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username}", class: "img-circle" %>
+          <h2><%= gh_username %></h2>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</div>
